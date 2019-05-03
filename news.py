@@ -24,13 +24,13 @@ def display_request_error():
 		print(f"{date} -- {error}% errors")
 
 def display_results():
-    # 1. What are the most popular three articles of all time?
+    print("\n1. What are the most popular three articles of all time?\n")
 	display_popular_article()
 	print()
-	# 2. Who are the most popular article authors of all time? 
+	print("\n2. Who are the most popular article authors of all time?\n") 
 	display_popular_author()
 	print()
-	# 3. On which days did more than 1% of requests lead to errors?
+	print("\n3. On which days did more than 1% of requests lead to errors?\n")
 	display_request_error()
 
 # display results
