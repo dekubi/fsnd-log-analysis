@@ -25,13 +25,13 @@ def display_request_error():
 
 def display_results():
     print("\n1. What are the most popular three articles of all time?\n")
-	display_popular_article()
-	print()
-	print("\n2. Who are the most popular article authors of all time?\n") 
-	display_popular_author()
-	print()
-	print("\n3. On which days did more than 1% of requests lead to errors?\n")
-	display_request_error()
+    display_popular_article()
+    print()
+    print("\n2. Who are the most popular article authors of all time?\n") 
+    display_popular_author()
+    print()
+    print("\n3. On which days did more than 1% of requests lead to errors?\n")
+    display_request_error()
 
 # display results
 display_results()
